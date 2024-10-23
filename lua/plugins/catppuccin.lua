@@ -9,7 +9,6 @@ return {
         transparent_background = true,
         flavour = "mocha",
         no_italic = true,
-
         integrations = {
           aerial = true,
           alpha = true,
