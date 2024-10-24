@@ -13,7 +13,7 @@ return {
     editor = {
       image = "https://i.postimg.cc/JzSyTQTM/neovim.png", -- Image ID or URL in case a custom client id is provided
       client = "neovim", -- vim, neovim, lunarvim, nvchad, astronvim or your application's client id
-      tooltip = "LazyVim", -- Text to display when hovering over the editor's image
+      tooltip = "Neovim", -- Text to display when hovering over the editor's image
     },
     display = {
       show_time = true, -- Display start timestamp
@@ -50,12 +50,20 @@ return {
         label = "View Repository", -- Text displayed on the button
         url = "git", -- URL where the button leads to ('git' = automatically fetch Git repository URL)
       },
-      {
-        label = "View Plugin",
-        url = "https://github.com/vyfor/cord.nvim",
+      -- {
+      --   label = "View Plugin",
+      --   url = "https://github.com/vyfor/cord.nvim",
+      -- },
+    },
+    assets = {
+      prisma = {
+        name = "prisma",
+        icon = "https://raw.githubusercontent.com/IogaMaster/neocord/refs/heads/main/assets/icons/prisma.png",
+        tooltip = "Prisma",
+        type = 0,
       },
     },
-    assets = nil, -- Custom file icons, see the wiki*
+    -- assets = nil, -- Custom file icons, see the wiki*
     -- assets = {
     --   lazy = {                                 -- Vim filetype or file name or file extension = table or string
     --     name = 'Lazy',                         -- Optional override for the icon name, redundant for language types
