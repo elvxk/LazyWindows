@@ -1,6 +1,7 @@
 return {
   "vyfor/cord.nvim",
   build = "./build || .\\build",
+  -- build = "cargo build --release",
   event = "VeryLazy",
   opts = {
     usercmds = true, -- Enable user commands

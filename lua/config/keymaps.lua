@@ -1,5 +1,9 @@
 local map = vim.keymap.set
 
+-- Commenter
+map({ "n", "v" }, ".", "<Nop>", { desc = "Disable ." })
+map({ "n", "v" }, "<leader>.", "gcc<esc>", { desc = "Comment line", remap = true })
+
 -- Buffer
 map("n", "<leader>bd", "<cmd>bw<cr>", { desc = "Wipe buffer" })
 map("n", "<Tab>", "<cmd>bn<cr>", { desc = "Buffer next" })
