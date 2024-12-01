@@ -51,10 +51,10 @@ return {
         label = "View Repository", -- Text displayed on the button
         url = "git", -- URL where the button leads to ('git' = automatically fetch Git repository URL)
       },
-      -- {
-      --   label = "View Plugin",
-      --   url = "https://github.com/vyfor/cord.nvim",
-      -- },
+      {
+        label = "Website",
+        url = "https://sandri.my.id",
+      },
     },
     assets = {
       prisma = {
