@@ -1,7 +1,7 @@
 return {
   "vyfor/cord.nvim",
-  build = "./build || .\\build",
-  -- build = "cargo build --release",
+  -- build = "./build || .\\build",
+  build = "cargo build --release",
   event = "VeryLazy",
   opts = {
     usercmds = true, -- Enable user commands
@@ -37,20 +37,20 @@ return {
       text = "Idle", -- Text to display when idle
       tooltip = "💤", -- Text to display when hovering over the idle image
     },
-    text = {
-      viewing = "Viewing {}", -- Text to display when viewing a readonly file
-      editing = "Editing {}", -- Text to display when editing a file
-      file_browser = "Browsing files in {}", -- Text to display when browsing files (Empty string to disable)
-      plugin_manager = "Managing plugins in {}", -- Text to display when managing plugins (Empty string to disable)
-      lsp_manager = "Configuring LSP in {}", -- Text to display when managing LSP servers (Empty string to disable)
-      vcs = "Committing changes in {}", -- Text to display when using Git or Git-related plugin (Empty string to disable)
-      workspace = "Working on {}", -- Text to display when in a workspace (Empty string to disable)
-    },
+    -- text = {
+    --   viewing = "Viewing {}", -- Text to display when viewing a readonly file
+    --   editing = "Editing {}", -- Text to display when editing a file
+    --   file_browser = "Browsing files in {}", -- Text to display when browsing files (Empty string to disable)
+    --   plugin_manager = "Managing plugins in {}", -- Text to display when managing plugins (Empty string to disable)
+    --   lsp_manager = "Configuring LSP in {}", -- Text to display when managing LSP servers (Empty string to disable)
+    --   vcs = "Committing changes in {}", -- Text to display when using Git or Git-related plugin (Empty string to disable)
+    --   workspace = "Working on {}", -- Text to display when in a workspace (Empty string to disable)
+    -- },
     buttons = {
-      {
-        label = "View Repository", -- Text displayed on the button
-        url = "git", -- URL where the button leads to ('git' = automatically fetch Git repository URL)
-      },
+      -- {
+      --   label = "View Repository", -- Text displayed on the button
+      --   url = "git", -- URL where the button leads to ('git' = automatically fetch Git repository URL)
+      -- },
       {
         label = "Website",
         url = "https://sandri.my.id",
