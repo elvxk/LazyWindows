@@ -8,7 +8,8 @@ return {
       client = "neovim", -- vim, neovim, lunarvim, nvchad, astronvim or your application's client id
     },
     display = {
-      theme = "pastel",
+      -- theme = "catppuccin",
+      flavor = "accent",
       swap_fields = true,
     },
     idle = {
